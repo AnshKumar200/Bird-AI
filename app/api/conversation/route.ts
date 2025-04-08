@@ -8,7 +8,7 @@ export async function POST(req:Request) {
         const {messages} = rr;
 
         const apiUrl =
-            "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=" +
+            "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=" +
             process.env.GEMINI_API_TOKEN;
 
         const requestBody = {
